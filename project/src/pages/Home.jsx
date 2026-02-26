@@ -89,7 +89,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <ScrollCar ref={carRef} className="z-20 top-[40%] md:top-1/2 -translate-y-1/2" />
+            <ScrollCar ref={carRef} className="z-20 top-[32%] sm:top-[38%] md:top-1/2 -translate-y-1/2" />
 
             <div className="absolute top-0 right-0 w-[40rem] lg:w-[60rem] h-[40rem] lg:h-[60rem] bg-indigo-500/10 blur-[100px] lg:blur-[140px] rounded-full pointer-events-none -translate-y-1/2 translate-x-1/3"></div>
             <div className="absolute bottom-0 left-0 w-[30rem] lg:w-[40rem] h-[30rem] lg:h-[40rem] bg-zinc-600/10 blur-[100px] lg:blur-[140px] rounded-full pointer-events-none translate-y-1/3 -translate-x-1/2"></div>

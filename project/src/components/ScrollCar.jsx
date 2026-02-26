@@ -6,7 +6,7 @@ const ScrollCar = forwardRef(({ className }, ref) => {
         <div className={`absolute left-0 w-full flex items-center pointer-events-none overflow-visible ${className}`}>
             <div
                 ref={ref}
-                className="scroll-car will-change-transform w-[240px] sm:w-[320px] md:w-[600px] lg:w-[800px] opacity-0"
+                className="scroll-car will-change-transform w-[80vw] sm:w-[400px] md:w-[600px] lg:w-[800px] opacity-0"
             >
                 <img
                     src={carImg}
